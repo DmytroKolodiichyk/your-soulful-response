@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя Галерея</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: #fff;
+        }
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+        }
+        .gallery-item {
+            margin: 20px 0;
+            text-align: center;
+        }
+        img {
+            max-width: 90%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .buy-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .buy-button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #222;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        a {
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Галерея Мои Работы</h1>
+    </header>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="example1.jpg" alt="Картина 1">
+            <p>Картина 1 - Краткое описание</p>
+            <a href="https://paypal.me/example" class="buy-button">Купить</a>
+        </div>
+        <div class="gallery-item">
+            <img src="example2.jpg" alt="Картина 2">
+            <p>Картина 2 - Краткое описание</p>
+            <a href="https://paypal.me/example" class="buy-button">Купить</a>
+        </div>
+        <!-- Добавьте больше картин здесь -->
+    </div>
+    <footer>
+        <p>Контакты: <a href="mailto:your_email@example.com">your_email@example.com</a></p>
+    </footer>
+</body>
+</html>
